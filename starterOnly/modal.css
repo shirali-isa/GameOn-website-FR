@@ -502,7 +502,7 @@ footer {
   padding-right: 2vw;
   margin: 0 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .hero-section {
     display: block;
     box-shadow: unset;
@@ -552,6 +552,26 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  .topnav .icon:hover{
+    background-color: transparent;
+
+  }
+
+  .topnav.responsive .icon {
+    right: 0;
+    top: 0;
+}
+
+  .main-navbar{
+
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .menu{
+    margin-top: 60px;
+  }
+
   .hero-headline {
     font-size: 3.3rem;
   }
@@ -572,6 +592,14 @@ footer {
 
   .page-merci p {
     margin: 90% 0;
+  }
+
+  .hero-content{
+    min-width: 0%;
+  }
+
+  .hero-headline{
+    font-size: 2rem;
   }
 
  
